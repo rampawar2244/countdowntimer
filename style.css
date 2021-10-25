@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andada Pro', serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+margin: 0;
+background-color: aqua;
+background-size: cover;
+display: flex;
+align-items: center;
+flex-direction: column  ;
+min-height: 100vh;
+background-position: center center;
+}
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
